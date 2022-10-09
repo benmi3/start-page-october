@@ -1,0 +1,54 @@
+html {
+  align-items: center;
+  background-color: #596689;
+  color: #596689;
+  display: flex;
+  font: 21px/1 "Inconsolata", monospace;
+  height: 100%;
+  justify-content: center;
+}
+
+body {
+  background: #69779A;
+  border-radius: 4px;
+  box-shadow: 10px 10px 2px #EFD679;
+  color: #DADFB6;
+  display: flex;
+  flex-direction: column;
+  min-height: 30ch;
+  min-width: 60vw;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  column-gap: 4em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 1em 3;
+}
+
+li:first-child {
+  color: #ffc402;
+  font-weight: bold;
+}
+
+li:last-child {
+  margin: 0 0 1em;
+}
